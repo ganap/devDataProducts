@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
   mainPanel(
     h3('Summary'),
     helpText("This application uses Black-Scholes pricing model to calculate the is for equity investors to calculate the theoretical price and greeks based on the input parameters."),
-    helpText("Enter your values for the input parameters"),
+    helpText("Modify the input parameters "),
 
     mainPanel(
       h4('Option prices and greeks'),       

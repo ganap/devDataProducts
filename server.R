@@ -189,29 +189,6 @@ shinyServer(
       print(format(greektable, digits=2))
     })
     
-    output$callPrice <- renderText({
-        PriceCall(input$assetPrice)
-    })    
-    output$putPrice <- renderText({
-        PricePut(input$assetPrice)
-          
-    })
-    output$callDelta <- renderText({
-      DeltaCall(input$assetPrice)
-      
-    })
-    output$putDelta <- renderText({
-      DeltaPut(input$assetPrice)
-      
-    })
-    output$putPrice <- renderText({
-      PricePut(input$assetPrice)
-      
-    })
-    output$putPrice <- renderText({
-      PricePut(input$assetPrice)
-      
-    })
     
   }
 )
